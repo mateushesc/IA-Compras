@@ -10,9 +10,9 @@ options.add_argument("--no-sandbox")  # Evita problemas de sandbox
 driver = webdriver.Chrome(options=options)
 
 # Caminho para o arquivo CSV de entrada
-input_csv_file = 'links_coletados.csv'
+input_csv_file = 'data/links_coletados.csv'
 # Caminho para o arquivo CSV de saída
-output_csv_file = 'priceHistoryBruto.csv'
+output_csv_file = 'data/priceHistoryBruto.csv'
 
 # Lista para armazenar os resultados
 results = []
