@@ -24,6 +24,6 @@ Você pode instalá-las com o comando:
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib
-
+```
 
 (Não será explicado sobre as outras partes do código, pois até esse momento, não são o foco.)
