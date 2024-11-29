@@ -18,14 +18,14 @@ def extract_prices(data):
     return pd.DataFrame(rows)
 
 # Carregar o arquivo original
-file_path = 'priceHistoryBruto.csv'  # Substitua pelo caminho correto
+file_path = 'data/priceHistoryBruto.csv'  # Substitua pelo caminho correto
 data = pd.read_csv(file_path)
 
 # Extrair e organizar os dados
 structured_data = extract_prices(data)
 
 # Salvar o resultado em um arquivo CSV
-output_path = 'priceHistoryOrganizado.csv'
+output_path = 'data/priceHistoryOrganizado.csv'
 structured_data.to_csv(output_path, index=False)
 
 print(f"Arquivo organizado salvo em: {output_path}")

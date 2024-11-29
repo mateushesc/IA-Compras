@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Caminhos dos arquivos
-price_history_path = 'priceHistoryOrganizado.csv'
-links_coletados_path = 'links_coletados_mais_placas.csv'
+price_history_path = 'data/priceHistoryOrganizado.csv'
+links_coletados_path = 'data/alinks_coletados_mais_placas.csv'
 
 # Ler os arquivos CSV
 price_history_df = pd.read_csv(price_history_path)
